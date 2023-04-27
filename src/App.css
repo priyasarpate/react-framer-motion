@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: aliceblue;
+}
+.card-container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: white;
+  padding: 3rem 5rem;
+}
+.card p {
+  line-height: 150%;
+}
+.expand{
+  width: 30rem;
+  text-align: left;
+}
